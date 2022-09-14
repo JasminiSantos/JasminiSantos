@@ -1,17 +1,17 @@
-## 💜 Olá, meu nome é <strong>Jasmini!</strong>
+## 💜 Hello, my name is <strong>Jasmini!</strong>
 
-<h3> :woman: &nbsp;Sobre mim </h3>
+<h3> :woman: &nbsp;About me </h3>
 
 ---
 
-- 🤔 &nbsp; Explorando novos conhecimentos e desenvolvendo soluções por meio da tecnologia
-- 🎓 &nbsp; Estudando Ciência da Computação na <a href="https://www.pucpr.br/">PUCPR</a>
-- 💼 &nbsp; Estagiando em engenharia de dados na <a href="https://www.ibm.com/br-pt">IBM</a>
-- 🌱 &nbsp; Aprendendo mais sobre dados, desenvolvimento iOS e muito mais
+- 🤔 &nbsp; Exploring new knowledge and developing solutions through technology
+- 🎓 &nbsp; Studying Computer Science at <a href="https://www.pucpr.br/">PUCPR</a>
+- 💼 &nbsp; Internship in Data Engineering at <a href="https://www.ibm.com/br-pt">IBM</a>
+- 🌱 &nbsp; Learning about data, iOS development and a lot more
 
 ![Gif](https://github.com/JasminiSantos/JasminiSantos/blob/main/code.gif)
 
-<h3> 🚀 Minhas Skills </h3>
+<h3> 🚀 My Skills </h3>
 <p align="left">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
@@ -26,7 +26,7 @@
 
 ![Snake animation](https://github.com/JasminiSantos/JasminiSantos/blob/output/github-contribution-grid-snake.svg)
 
-## ⭐ Informações sobre minha conta GitHub
+## ⭐ Informations about my GitHub account
 <a href="https://github.com/JasminiSantos">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jasminisantos&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jasminisantos&layout=compact&langs_count=7&theme=dracula"/>
