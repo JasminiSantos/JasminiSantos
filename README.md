@@ -4,7 +4,7 @@
 
 ---
 
-- 🤔 &nbsp; Exploring new knowledge and developing solutions through technology
+- 🤔 &nbsp; Exploring new knowledges and developing solutions through technology
 - 🎓 &nbsp; Studying Computer Science at <a href="https://www.pucpr.br/">PUCPR</a>
 - 💼 &nbsp; Internship in Data Engineering at <a href="https://www.ibm.com/br-pt">IBM</a>
 - 🌱 &nbsp; Learning about data, iOS development and a lot more
@@ -12,6 +12,9 @@
 ![Gif](https://github.com/JasminiSantos/JasminiSantos/blob/main/code.gif)
 
 <h3> 🚀 My Skills </h3>
+
+---
+
 <p align="left">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
