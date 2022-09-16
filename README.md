@@ -7,7 +7,7 @@
 - 🤔 &nbsp; Exploring new knowledges and developing solutions through technology
 - 🎓 &nbsp; Studying Computer Science at <a href="https://www.pucpr.br/">PUCPR</a>
 - 💼 &nbsp; Internship in Data Engineering at <a href="https://www.ibm.com/br-pt">IBM</a>
-- 🌱 &nbsp; Learning about data, iOS development and a lot more
+- 🌱 &nbsp; Learning about data and software development
 
 ![Gif](https://github.com/JasminiSantos/JasminiSantos/blob/main/code.gif)
 
