@@ -1,0 +1,135 @@
+
+    .container>.timelineInfo {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container>.timelineInfo>h1 {
+        margin-bottom: -0.2vh;
+        text-align: center;
+    }
+
+    .container>.timelineInfo>p {
+        margin-top: 7vh;
+        text-align: center;
+
+        color: rgb(105, 105, 105);
+    }
+
+    .container>.timelineInfo>.timelines {
+        display: flex;
+    }
+
+    .container>.timelineInfo>.timelines>.timeline {
+        transition: all 1s ease-in-out;
+    }
+
+    .container>.timelineInfo>.timelines>.timeline[data-timeline="school"] {
+        transform: translateX(100vw);
+    }
+
+    .container>.timelineInfo>.timelineButtons {
+        display: flex;
+        justify-content: space-around;
+
+        width: 90%;
+    }
+
+    .container>.timelineInfo>.timelineButtons>hr {
+        transform: translateX(-3px);
+    }
+
+    .container>.timelineInfo>.timelineButtons>.timelineButton.current {
+        color: blueviolet;
+    }
+
+    .container>.timelineInfo>.timelineButtons>.timelineButton:hover {
+        color: blueviolet;
+    }
+
+    .container>.timelineInfo>.timelineButtons>.timelineButton>h3>i {
+        padding: 0 2vw 0 0;
+    }
+
+
+    .container>.timelineInfo>.timelines>.timeline>.lineMiddle {
+        border: 0.1px gray solid;
+        width: 0.1px;
+        height: 50vh;
+
+        margin-top: 5vh;
+    }
+
+    .container>.timelineInfo>.timelines>.timeline>.lineMiddle>.dot {
+        width: 20px;
+        height: 20px;
+
+        background-color: blueviolet;
+
+        border-radius: 100%;
+
+        transform: translate(-10px, -3vh);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 12vh;
+
+    }
+
+    .container>.timelineInfo>.timelines>.timeline>.lineMiddle>.dot:nth-child(odd)>* {
+        transform: translate(-25vw, 6vh);
+        width: 36vw;
+
+        text-align: center;
+
+    }
+
+    .container>.timelineInfo>.timelines>.timeline>.lineMiddle>.dot:nth-child(even)>* {
+        transform: translate(25vw, 6vh);
+        width: 36vw;
+
+        text-align: center;
+
+    }
+
+    .container>.timelineInfo>.timelines>.timeline>.lineMiddle>.dot>h4 {
+        font-size: 0.9rem;
+        margin: 0;
+    }
+
+    .container>.timelineInfo>.timelines>.timeline>.lineMiddle>.dot>p {
+        width: 36vw;
+        font-size: 0.80rem;
+
+        margin: 0;
+    }
+
+    .container>.timelineInfo>.timelines>.timeline>.lineMiddle>.dot>label {
+        display: inline-block;
+
+        width: 36vw;
+        font-size: 0.75rem;
+    }
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+    .container>.timelineInfo>.timelineButtons {
+        width: 35%;
+    }
+
+    .container>.timelineInfo>.timelines>.timeline>.lineMiddle>.dot:nth-child(odd)>* {
+        transform: translate(-15vw, 6vh);
+    }
+
+    .container>.timelineInfo>.timelines>.timeline>.lineMiddle>.dot:nth-child(even)>* {
+        transform: translate(14vw, 6vh);
+    }
+}

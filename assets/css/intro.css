@@ -1,0 +1,113 @@
+.container>.intro {
+    margin-bottom: 1vh;
+}
+
+.container>.intro>.socialsPic {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 5vh;
+}
+
+.container>.intro>.socialsPic>.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    font-size: 1.5rem;
+    color: blueviolet;
+
+    transform: translateX(-18vw);
+}
+
+.container>.intro>.socialsPic>.socials>a:visited {
+    color: blueviolet;
+}
+
+.container>.intro>.socialsPic>.socials>a:link {
+    color: blueviolet;
+}
+
+.container>.intro>.socialsPic>img {
+    width: 20vh;
+
+    border-radius: 100px;
+}
+
+.container>.intro>.introduction {
+    margin-bottom: 5vh;
+}
+
+.container>.intro>.introduction>h1 {
+    font-size: 1.6rem;
+    margin-bottom: -1.5vh;
+}
+
+.container>.intro>.introduction>h2 {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: rgb(105, 105, 105);
+    margin-bottom: 1vh;
+}
+
+.container>.intro>.introduction>p {
+    color: rgb(105, 105, 105);
+}
+
+.container>.intro>button {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.container>.intro>.godown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container>.intro>.godown>i {
+    margin-top: 2.2vh;
+    font-size: 2rem;
+    color: blueviolet;
+
+    animation: ArrowBobble 1.2s ease-out infinite;
+}
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+
+    .container>.intro {
+        margin-top: 1vw;
+    }
+
+    .container>.intro>.socialsPic {
+        margin-bottom: 4vw;
+    }
+
+    .container>.intro>.socialsPic>img {
+        width: 25vh;
+
+        border-radius: 50%;
+    }
+
+    .container>.intro>.socialsPic>.socials {
+        transform: translateX(-8vw);
+    }
+
+}
+
+@keyframes ArrowBobble {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}

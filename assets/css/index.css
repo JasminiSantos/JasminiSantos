@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    html {
+
+        overflow-x: hidden;
+    }
+
+    body {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: fit-content;
+        font-family: 'Poppins', sans-serif;
+
+        margin: 0;
+
+        overflow-x: hidden;
+
+    }
+
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-top: 6vh;
+
+        scroll-behavior: smooth;
+
+        width: 85vw;
+        height: fit-content;
+
+
+        border-radius: 25px;
+    }
+
+
+
+    .container button {
+        width: 100%;
+        height: 6vh;
+
+        font-size: 0.85rem;
+        font-weight: 600;
+
+        background-color: blueviolet;
+        color: white;
+        border: none;
+
+        padding: 0 29vw;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        border-radius: 100px;
+
+
+        margin-bottom: 5vh;
+    }
+
+
+
+    .container label {
+        text-align: center;
+        font-size: medium;
+
+        color: rgb(105, 105, 105);
+
+        margin-bottom: 4vh;
+    }
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+
+    html {
+
+        overflow-x: hidden;
+    }
+
+    body {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: fit-content;
+        font-family: 'Poppins', sans-serif;
+
+        margin: 0;
+
+        overflow-x: hidden;
+
+    }
+
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-top: 6vh;
+
+        scroll-behavior: smooth;
+
+        width: 85vw;
+        height: fit-content;
+
+
+        border-radius: 25px;
+    }
+
+
+
+    .container button {
+        width: 100%;
+        height: 6vh;
+
+        font-size: 0.85rem;
+        font-weight: 600;
+
+        background-color: blueviolet;
+        color: white;
+        border: none;
+
+        padding: 0 29vw;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        border-radius: 100px;
+
+
+        margin-bottom: 5vh;
+    }
+
+
+
+    .container label {
+        text-align: center;
+        font-size: medium;
+
+        color: rgb(105, 105, 105);
+
+        margin-bottom: 4vh;
+    }
+
+}

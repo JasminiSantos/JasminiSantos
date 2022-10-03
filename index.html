@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasmini Santos</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/intro.css">
+    <link rel="stylesheet" href="assets/css/aboutme.css">
+    <link rel="stylesheet" href="assets/css/timeline.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+
+    <script src="https://kit.fontawesome.com/e31e84bdd6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="intro">
+            <div class="socialsPic">
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/jasmini-santos/" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/JasminiSantos" target="_blank"><i
+                            class="fa-brands fa-github-alt"></i></a>
+                    <a href="https://wa.me/558499676244" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <img src="assets/profile.jpeg" alt="Profile Pic">
+
+            </div>
+
+            <div class="introduction">
+                <h1>Olá, eu sou a Jasmini</h1>
+                <h2>Web Developer</h2>
+                <p>Aprendendo e melhorando as minhas capacidades de desenvolvedora.</p>
+            </div>
+
+            <button>Contacte-me <i class="fa-solid fa-chevron-right"></i></button>
+
+            <div class="godown">
+                <p>Deslize para baixo!</p>
+                <i class="fa-solid fa-arrow-down-long"></i>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="aboutme">
+            <h1>Sobre Mim</h1>
+            <label>Introdução</label>
+
+            <img src="assets/landscape.jpeg" alt="Profile landscape">
+
+            <p>Desenvolvedora e estudante, atenta ao detalhe. Trabalho com várias tecnologias e entrego trabalho de
+                qualidade.</p>
+
+            <div class="timeStats">
+                <div class="stat">
+                    <p>03+</p>
+                    <label>Anos
+                        Experiência</label>
+                </div>
+                <div class="stat">
+                    <p id="projectsSum"></p>
+                    <label>Projetos
+                        Completados</label>
+                </div>
+                <div class="stat">
+                    <p>02+</p>
+                    <label>Clientes
+                        Satisfeitos</label>
+                </div>
+            </div>
+
+            <a href="./assets/Currículo Jasmini.pdf" download="">
+                <button>
+                    Curriculum Vitae &nbsp;<i class="fa-solid fa-download"></i>
+                </button>
+            </a>
+        </div>
+
+        <br><br>
+
+        <div class="timelineInfo">
+            <h1>Qualificações</h1>
+            <label>A minha jornada pessoal</label>
+
+            <div class="timelineButtons">
+                <div data-timeline="career" onclick="timeLineChange(this)" class="timelineButton current">
+                    <h3><i class="fa-solid fa-briefcase"></i>Carreira</h3>
+                </div>
+                <hr>
+                <div data-timeline="school" onclick="timeLineChange(this)" class="timelineButton">
+                    <h3><i class="fa-solid fa-graduation-cap"></i>Escolar</h3>
+                </div>
+            </div>
+
+            <div class="timelines">
+                <div data-timeline="career" class="timeline">
+
+                    <div class="lineMiddle">
+                        <div class="dot">
+                            <h4>Estagiária de Tecnologia</h4>
+                            <p>IBM</p>
+                            <label>jun. 2022 – atual</label>
+                        </div>
+                        <div class="dot">
+                            <h4>Estagiária de Desenvolvimento</h4>
+                            <p>CI&T</p>
+                            <label>fev. 2022 – jun. 2022</label>
+                        </div>
+                        <div class="dot">
+                            <h4>Voluntariado</h4>
+                            <label>jun. 2020 – ago. 2021</label>
+                        </div>
+                        <div class="dot">
+                            <h4>Bolsista PIBIC</h4>
+                            <p>IFRN Campus Parnamirim</p>
+                            <label>mai. 2019 – dez. 2019</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-timeline="school" class="timeline">
+
+                    <div class="lineMiddle">
+                        <div class="dot">
+                            <h4>Bacharelado em Ciência da Computação</h4>
+                            <p>PUCPR</p>
+                            <label>2021 – 2024</label>
+                        </div>
+                        <div class="dot">
+                            <h4>Técnico Integrado em Mecatrônica</h4>
+                            <p>IFRN</p>
+                            <label>2016 – 2019</label>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <br><br>
+
+
+        <div class="portfolio">
+            <h1>Portfólio</h1>
+            <label>O meu trabalho</label>
+            <div class="projects">
+
+            </div>
+            <div class="navigation">
+                <i onclick="switchProject(this)" data-side="left" class="fa-solid fa-chevron-left"></i>
+
+                <div class="xprojects">
+                </div>
+
+                <i onclick="switchProject(this)" data-side="right" class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <br><br><br><br>
+        </div>
+
+
+
+
+        <div style="display: none;" id="projectList"></div>
+
+
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/changeTimeline.js"></script>
+    </div>
+</body>
+
+</html>
