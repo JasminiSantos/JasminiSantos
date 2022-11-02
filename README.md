@@ -39,7 +39,7 @@
   <a href="https://www.linkedin.com/in/jasmini-santos/" alt="Linkedin">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://jasminisantos.up.railway.app/" alt="Website">
+  <a href="https://jasminisantos.netlify.app/" alt="Website">
     <img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white">
   </a>
   <a href="https://api.whatsapp.com/send/?phone=558499676244&text&type=phone_number&app_absent=0" alt="Whatsapp">
