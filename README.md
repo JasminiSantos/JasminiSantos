@@ -5,9 +5,9 @@
 ---
 
 - 🤔 &nbsp; Exploring new knowledges and developing solutions through technology
-- 🎓 &nbsp; Studying Computer Science at <a href="https://www.pucpr.br/">PUCPR</a>
+- 🎓 &nbsp; Computer Science student at <a href="https://www.pucpr.br/">PUCPR</a>
 - 💼 &nbsp; Associate intern at <a href="https://www.ibm.com/br-pt">IBM</a>
-- 🌱 &nbsp; Learning about design and iOS development
+- 🍎 &nbsp; iOS development student at <a href="https://developeracademy.pucpr.br/">Apple Developer Academy PUCPR</a>
 
 ![Gif](https://github.com/JasminiSantos/JasminiSantos/blob/main/code.gif)
 
