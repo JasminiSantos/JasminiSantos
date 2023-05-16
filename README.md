@@ -1,6 +1,6 @@
 ## 💜 Hello, my name is <strong>Jasmini!</strong>
 
-<h3> :woman: &nbsp;About me </h3>
+<h3>👩🏻 About me </h3>
 
 ---
 
