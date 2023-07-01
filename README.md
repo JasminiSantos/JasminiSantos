@@ -6,7 +6,7 @@
 
 - 🤔 &nbsp; Learning and improving my developer skills
 - 🎓 &nbsp; Computer Science student at <a href="https://www.pucpr.br/">PUCPR</a>
-- 💼 &nbsp; Associate intern at <a href="https://www.ibm.com/br-pt">IBM</a>
+- 💼 &nbsp; Application Developer at <a href="https://www.ibm.com/br-pt">IBM</a>
 - 🍎 &nbsp; iOS development student at <a href="https://developeracademy.pucpr.br/">Apple Developer Academy PUCPR</a>
 
 ![Gif](https://github.com/JasminiSantos/JasminiSantos/blob/main/code.gif)
