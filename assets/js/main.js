@@ -112,7 +112,11 @@ fetch(`https://api.github.com/users/JasminiSantos/repos`)
         });
     });
 
-
+document.querySelector('.godown').addEventListener('click', function() {
+    document.querySelector('#aboutme').scrollIntoView({ 
+        behavior: 'smooth' 
+    });
+    });
 
 
 
