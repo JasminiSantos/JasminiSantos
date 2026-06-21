@@ -6,7 +6,7 @@
 
 - 🤔 &nbsp; Learning and improving my developer skills
 - 🎓 &nbsp; Bachelor in Computer Science at <a href="https://www.pucpr.br/">PUCPR</a>
-- 💼 &nbsp; Software Engineer at <a href="https://www.ibm.com/br-pt">IBM</a>
+- 💼 &nbsp; Software Engineer at <a href="https://picpay.com/pt-br/pf">PicPay</a>
 - 🍎 &nbsp; <a href="https://developeracademy.pucpr.br/">Apple Developer Academy PUCPR</a> Alumni
 
 ![Gif](https://github.com/JasminiSantos/JasminiSantos/blob/main/code.gif)
